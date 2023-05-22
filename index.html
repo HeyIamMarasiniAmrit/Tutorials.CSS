@@ -5,59 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Rounded.css">
-    <link rel="stylesheet" href="backgrounded.css">
-    <link rel="stylesheet" href="colors.css">
-    <link rel="stylesheet" href="box.css">
-    <link rel="stylesheet" href="button.css">
-    <link rel="stylesheet" href="pagination.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>The border-radius Property</h1>
+    <div class="header">
+        <h1>Chania</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+            <li>The Flight</li>
+            <li>The City</li>
+            <li>The Island</li>
+            <li>The Food</li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-s-9">
+          <h1>The City</h1>
+          <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+        </div>
+      
+        <div class="col-3 col-s-12">
+          <div class="aside">
+            <h2>What?</h2>
+            <p>Chania is a city on the island of Crete.</p>
+            <h2>Where?</h2>
+            <p>Crete is a Greek island in the Mediterranean Sea.</p>
+            <h2>How?</h2>
+            <p>You can reach Chania airport from all over Europe.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <p>Resize the browser window to see how the content respond to the resizing.</p>
+      </div>
+      <h2>Hide elements on different screen sizes</h2>
 
-<p>Rounded corners for an element with a specified background color:</p>
-<p id="rcorners1">Rounded corners!</p>
-<p>Rounded corners for an element with a border:</p>
-<p id="rcorners2">Rounded corners!</p>
-<p>Rounded corners for an element with a background image:</p>
-<p id="rcorners3">Rounded corners!</p>
-<div id="example1">
-    <h1>Lorem Ipsum Dolor</h1>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-  </div>
-  <h1>Define Colors With RGBA Values</h1>
+<div class="example">Example DIV.</div>
 
-<p id="p1">Red</p>
-<p id="p2">Green</p>
-<p id="p3">Blue</p>
-<p id="p4">Grey</p>
-<p id="p5">Yellow</p>
-<p id="p6">Cerise</p>
-<p>Show the reflection below the image:</p>
-<img src="a.png">
-
-<h2>Button Colors</h2>
-
-<p>Change the background color of a button with the background-color property:</p>
-
-<button class="button">Green</button>
-<button class="button button2">Blue</button>
-<button class="button button3">Red</button>
-<button class="button button4">Gray</button>
-<button class="button button5">Black</button>
-
-<h2>Simple Pagination</h2>
-
-<div class="pagination">
-  <a href="#">&laquo;</a>
-  <a href="#">1</a>
-  <a href="#">2</a>
-  <a href="#">3</a>
-  <a href="#">4</a>
-  <a href="#">5</a>
-  <a href="#">6</a>
-  <a href="#">&raquo;</a>
-</div>
+<p>When the browser's width is 600px wide or less, hide the div element. Resize the browser window to see the effect.</p>
 </body>
 </html>
